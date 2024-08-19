@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_header_recycler_view_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="طراحی سایت"
+        android:textSize="@dimen/tv"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/margin"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_app_shortcut_24"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

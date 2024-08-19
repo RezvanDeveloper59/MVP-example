@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn">18sp</dimen>
+    <dimen name="tv">20sp</dimen>
+    <dimen name="tvSmall">16sp</dimen>
+    <dimen name="et">20sp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="margin">5dp</dimen>
+
+</resources>

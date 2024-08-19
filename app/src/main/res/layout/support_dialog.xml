@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCancelSupport"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/cancel" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_toStartOf="@+id/ivCancelSupport"
+        android:padding="@dimen/padding"
+        android:text="@string/tv_support"
+        android:textSize="@dimen/tv"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etTitleSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:textSize="@dimen/et"
+        android:background="@drawable/et_background_supportdialog"
+        android:layout_below="@id/tvSupport"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/margin"/>
+
+    <!--chatGPT-->
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etMessageSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/message_support"
+        android:textSize="@dimen/et"
+        android:minHeight="100dp"
+        android:gravity="top|right"
+        android:background="@drawable/et_background_supportdialog"
+        android:layout_below="@id/etTitleSupport"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/margin"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSendSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:textSize="@dimen/btn"
+        android:background="@drawable/btn_background"
+        android:layout_below="@id/etMessageSupport"
+        android:padding="@dimen/padding"
+        android:layout_margin="@dimen/margin"/>
+
+</RelativeLayout>

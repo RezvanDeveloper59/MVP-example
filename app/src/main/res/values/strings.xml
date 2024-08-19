@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">دانشجویار</string>
+    <string name="no_connect_to_internet">No connect to internet</string>
+    <string name="wi_fi">اینترنت Wi_Fi</string>
+    <string name="data">اینترنت موبایل</string>
+    <string name="tv_no_internet">به اینترنت متصل نیستید . برای استفاده از اپلیکیشن به اینترنت متصل شوید .</string>
+    <string name="tv_support">ارسال پیام به پشتیبانی</string>
+    <string name="title">عنوان</string>
+    <string name="message_support">متن پیام ...</string>
+    <string name="send">ارسال</string>
+
+
+    <string name="manage_task">مدیریت وظایف</string>
+    <string name="todo">todo</string>
+    <string name="true_work">انجام شده</string>
+    <string name="false_work">انجام نشده</string>
+    <string name="add_task">اضافه کردن وظیفه</string>
+    <string name="hint_task">وظیفه را وارد کنید</string>
+    <string name="save">ذخیره کردن</string>
+    <string name="cancel">منصرف شدن</string>
+    <string name="videos">ویدیوها</string>
+    <string name="info">اطلاعات</string>
+    <string name="azki">از کی یاد می گیریم ؟</string>
+    <string name="alireza_ahmadi">Alireza Ahmadi</string>
+    <string name="matn_video_almentor">لورم ایپسون متن ساختگی باتولید نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبودی ابزارهای کاربردی می باشد .</string>
+    <string name="mobile_number">شماره موبایل</string>
+</resources>
